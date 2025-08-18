@@ -1,4 +1,8 @@
-<h1 align="center">¡Hola! Soy Román Bossio 👋</h1>
+<p align="center">
+  <img src="banner_simple.svg" width="900" alt="ROMÁN BOSSIO" />
+</p>
+
+<h1 align="center">¡Hola! 👋</h1>
 <p align="center">
   <em>Estudiante de Desarrollo de Software · Apasionado por el desarrollo web y la creación de proyectos con impacto real</em>
 </p>

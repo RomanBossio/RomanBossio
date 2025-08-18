@@ -74,4 +74,41 @@
                  dur="6s"
                  repeatCount="indefinite"/>
       </rect>
+    </g>
+
+    <!-- Subtítulo rotando -->
+    <g transform="translate(0,42)">
+      <rect x="-85" y="-14" width="170" height="28" rx="6" fill="#0F172A" opacity=".65"/>
+      <foreignObject x="-80" y="-10" width="160" height="20">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="sub" style="color:#9FB3C8; text-align:center; position:relative; height:20px; overflow:hidden;">
+          <span class="rot">
+            <span>Full-Stack JS • Node + React</span>
+            <span>TypeScript • APIs • DevOps</span>
+            <span>SVG • Animations • UI</span>
+          </span>
+        </div>
+      </foreignObject>
+    </g>
+
+    <!-- Chips de tech -->
+    <g transform="translate(0,78)">
+      <g transform="translate(-140,0)">
+        <rect x="-36" y="-12" width="72" height="24" rx="6" fill="#12263A" opacity=".8"/>
+        <text class="chip" fill="#8CE2B4" text-anchor="middle" dominant-baseline="middle">Node.js</text>
+      </g>
+      <g transform="translate(-50,0)">
+        <rect x="-36" y="-12" width="72" height="24" rx="6" fill="#12263A" opacity=".8"/>
+        <text class="chip" fill="#8CE2B4" text-anchor="middle" dominant-baseline="middle">React</text>
+      </g>
+      <g transform="translate(40,0)">
+        <rect x="-44" y="-12" width="88" height="24" rx="6" fill="#12263A" opacity=".8"/>
+        <text class="chip" fill="#8CE2B4" text-anchor="middle" dominant-baseline="middle">TypeScript</text>
+      </g>
+      <g transform="translate(140,0)">
+        <rect x="-44" y="-12" width="88" height="24" rx="6" fill="#12263A" opacity=".8"/>
+        <text class="chip" fill="#8CE2B4" text-anchor="middle" dominant-baseline="middle">Animations</text>
+      </g>
+    </g>
+  </g>
 </svg>
+

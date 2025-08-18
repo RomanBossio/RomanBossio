@@ -5,7 +5,7 @@
 
 ---
 
-## 🚀 Sobre mí
+##  Sobre mí
 - 🎓 Actualmente estudiante de **Desarrollo de Software**  
 - 💡 Interés en **frontend**, **backend** y **metodologías ágiles**  
 - 🌱 Siempre aprendiendo nuevas tecnologías y mejorando mis proyectos  

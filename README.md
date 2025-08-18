@@ -34,9 +34,12 @@
 
 ---
 
-## 📈 GitHub
+
+## 📊 Mis Stats  
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RomanBossio&show_icons=true&theme=radical" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RomanBossio&layout=compact&theme=radical" height="150"/>
-</p>    
+  <img src="https://github-readme-stats.vercel.app/api?username=RomanBossio&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&border_radius=12" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RomanBossio&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&border_radius=12" height="160"/>
+</p>
+
 ---

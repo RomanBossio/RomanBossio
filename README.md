@@ -17,9 +17,13 @@
 ---
 
 ## 🔗 Encuéntrame
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/roman-bossio-0a7678333/)  
-[![Email](https://img.shields.io/badge/Email-bossio.roman2004%40gmail.com-informational)](mailto:bossio.roman2004@gmail.com)  
-[![CV](https://img.shields.io/badge/CV-PDF-red)](https://drive.google.com/file/d/1vInBjALWcS7ERZX5HiWGHVzOdx130Co9/view)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/roman-bossio-0a7678333/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bossio.roman2004@gmail.com)
+[![Currículum Vitae en Google Drive](https://img.shields.io/badge/CV-Google%20Drive-yellow?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1vInBjALWcS7ERZX5HiWGHVzOdx130Co9/view)
+
+
+
+
 
 ---
 

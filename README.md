@@ -34,7 +34,6 @@
 
 ---
 
-
 ## 📊 Mis Stats  
 
 <p align="center">
@@ -43,3 +42,7 @@
 </p>
 
 ---
+
+## 🐍 Animación de mis commits
+
+![snake gif](https://github.com/RomanBossio/RomanBossio/blob/output/snake.svg)

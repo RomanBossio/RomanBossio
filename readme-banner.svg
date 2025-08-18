@@ -12,7 +12,7 @@
       <rect x="0" y="0" width="16" height="16" rx="2" ry="2" fill="#161B22"/>
     </pattern>
 
-    <!-- Brillo que pasa en diagonal -->
+    <!-- Brillo diagonal -->
     <linearGradient id="g-shimmer" gradientUnits="userSpaceOnUse" x1="-200" y1="0" x2="0" y2="0">
       <stop offset="0%" stop-color="white" stop-opacity="0"/>
       <stop offset="50%" stop-color="white" stop-opacity="0.12"/>
@@ -21,7 +21,7 @@
       <animate attributeName="x2" from="0" to="1300" dur="4.5s" repeatCount="indefinite"/>
     </linearGradient>
 
-    <!-- Máscara typing: rect que crece de 0 a ancho -->
+    <!-- Máscara typing -->
     <mask id="m-typing">
       <rect x="0" y="0" width="0" height="250" fill="white">
         <animate attributeName="width"
@@ -32,41 +32,29 @@
       </rect>
     </mask>
 
-    <!-- Fuente fallback monospace -->
     <style><![CDATA[
-      .bg     { shape-rendering: crispEdges; }
-      .title  { font: 900 64px/1.1 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
-      .sub    { font: 600 16px/1.3 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif; letter-spacing: .5px; }
-      .chip   { font: 700 12px/1 ui-monospace, monospace; }
+      .title  { font: 900 64px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .sub    { font: 600 20px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; letter-spacing:.5px; }
+      .chip   { font: 700 12px ui-monospace, monospace; }
       .cursor { animation: blink 1s steps(1,end) infinite; }
-      @keyframes blink { 0%, 49% { opacity: 1 } 50%, 100% { opacity: 0 } }
-      /* Carrousel de skills (aparecen/ocultan) */
-      .rot span { opacity: 0; position: absolute; left: 0; top: 0; }
-      .rot span:nth-child(1) { animation: rot 9s infinite; }
-      .rot span:nth-child(2) { animation: rot 9s 3s infinite; }
-      .rot span:nth-child(3) { animation: rot 9s 6s infinite; }
-      @keyframes rot { 0%{opacity:0; transform: translateY(6px)} 5%,30%{opacity:1; transform: translateY(0)} 35%,100%{opacity:0; transform: translateY(-6px)} }
+      @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
     ]]></style>
   </defs>
 
   <!-- Fondo -->
   <rect width="900" height="250" fill="#0D1117"/>
-  <!-- Grid -->
-  <rect width="900" height="250" fill="url(#p-grid)" class="bg"/>
-  <!-- Shimmer encima del grid -->
+  <rect width="900" height="250" fill="url(#p-grid)"/>
   <rect width="900" height="250" fill="url(#g-shimmer)"/>
 
-  <!-- Contenido centrado -->
+  <!-- Contenido -->
   <g transform="translate(450 125)">
-    <!-- Título con typing -->
-    <g transform="translate(0,-10)">
+    <!-- Título -->
+    <g transform="translate(0,-20)">
       <g mask="url(#m-typing)">
         <text class="title" fill="url(#g-green)" text-anchor="middle" dominant-baseline="middle">ROMÁN BOSSIO</text>
-        <!-- Trazo glow suave -->
-        <text class="title" fill="none" stroke="#00C16A" stroke-opacity=".25" stroke-width="2" text-anchor="middle" dominant-baseline="middle">ROMÁN BOSSIO</text>
+        <text class="title" fill="none" stroke="#00C16A" stroke-opacity=".25" stroke-width="2"
+              text-anchor="middle" dominant-baseline="middle">ROMÁN BOSSIO</text>
       </g>
-
-      <!-- Cursor (rect) que avanza con el typing -->
       <rect x="-450" y="-38" width="18" height="60" fill="#3AAD52" class="cursor">
         <animate attributeName="x"
                  values="-450; 430; 430; -450"
@@ -76,39 +64,13 @@
       </rect>
     </g>
 
-    <!-- Subtítulo rotando -->
-    <g transform="translate(0,42)">
-      <rect x="-85" y="-14" width="170" height="28" rx="6" fill="#0F172A" opacity=".65"/>
-      <foreignObject x="-80" y="-10" width="160" height="20">
-        <div xmlns="http://www.w3.org/1999/xhtml" class="sub" style="color:#9FB3C8; text-align:center; position:relative; height:20px; overflow:hidden;">
-          <span class="rot">
-            <span>Full-Stack JS • Node + React</span>
-            <span>TypeScript • APIs • DevOps</span>
-            <span>SVG • Animations • UI</span>
-          </span>
-        </div>
-      </foreignObject>
-    </g>
+    <!-- Subtítulo simple -->
+    <text class="sub" fill="#9FB3C8" text-anchor="middle" dominant-baseline="middle" y="45">
+      Estudiante de Desarrollo de Software
+    </text>
 
-    <!-- Chips de tech -->
-    <g transform="translate(0,78)">
-      <g transform="translate(-140,0)">
-        <rect x="-36" y="-12" width="72" height="24" rx="6" fill="#12263A" opacity=".8"/>
-        <text class="chip" fill="#8CE2B4" text-anchor="middle" dominant-baseline="middle">Node.js</text>
-      </g>
-      <g transform="translate(-50,0)">
-        <rect x="-36" y="-12" width="72" height="24" rx="6" fill="#12263A" opacity=".8"/>
-        <text class="chip" fill="#8CE2B4" text-anchor="middle" dominant-baseline="middle">React</text>
-      </g>
-      <g transform="translate(40,0)">
-        <rect x="-44" y="-12" width="88" height="24" rx="6" fill="#12263A" opacity=".8"/>
-        <text class="chip" fill="#8CE2B4" text-anchor="middle" dominant-baseline="middle">TypeScript</text>
-      </g>
-      <g transform="translate(140,0)">
-        <rect x="-44" y="-12" width="88" height="24" rx="6" fill="#12263A" opacity=".8"/>
-        <text class="chip" fill="#8CE2B4" text-anchor="middle" dominant-baseline="middle">Animations</text>
-      </g>
-    </g>
+    <!-- Chips -->
+
   </g>
 </svg>
 

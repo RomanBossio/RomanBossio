@@ -21,7 +21,7 @@
 
 ## 📌 Proyectos destacados
 - **Súbete** – Plataforma web para compartir viajes entre personas que van al mismo destino.  
-- **App CV Android** – Aplicación móvil con currículum personal en Android Studio.  
+- **TBService** – Sistema de gestión para talleres de reparación de celulares desarrollado en Visual Basic .NET y SQL Server.    
 - **Catálogo de Ropa Web** – Página con HTML, CSS y JS mostrando un catálogo navegable.  
 
 ---
